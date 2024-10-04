@@ -1,3 +1,4 @@
+// Rule 01. Declarations and Initialization (DCL)
 public class Cycle {
   private final int balance;
   private static final Cycle c = new Cycle();
