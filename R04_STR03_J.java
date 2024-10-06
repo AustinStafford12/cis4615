@@ -1,4 +1,5 @@
 // Rule 04. Characters and Strings (STR)
+// non-compliant code:
 BigInteger x = new BigInteger("530500452766");
 byte[] byteArray = x.toByteArray();
 String s = new String(byteArray);
