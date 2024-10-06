@@ -1,4 +1,5 @@
 // Rule 10. Thread APIs (THI)
+// non-compliant code:
 public final class Foo implements Runnable {
   @Override public void run() {
     // ...
