@@ -1,4 +1,5 @@
 // Rule 11. Thread Pools (TPS)
+// non-compliant code:
 class Helper {
   public void handle(Socket socket) {
     // ...
