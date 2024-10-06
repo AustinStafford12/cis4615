@@ -1,4 +1,4 @@
-// Thread APIs (THI)
+// Rule 10. Thread APIs (THI)
 public final class Foo implements Runnable {
   @Override public void run() {
     // ...
