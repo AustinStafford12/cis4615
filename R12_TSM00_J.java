@@ -1,5 +1,5 @@
 // Rule 12. Thread-Safety Miscellaneous (TSM)
-// non-compliant code:
+// compliant solution
 class Base {
   public synchronized void doSomething() {
     // ...
@@ -7,7 +7,7 @@ class Base {
 }
  
 class Derived extends Base {
-  @Override public void doSomething() {
+  @Override public synchronized void doSomething() {
     // ...
   }
 }
