@@ -1,4 +1,5 @@
 // Rule 02. Expressions (EXP)
+// non-compliant code:
 public void deleteFile() {
   File someFile = new File("someFileName.txt");
   // Do something with someFile
