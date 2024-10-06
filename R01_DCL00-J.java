@@ -1,4 +1,5 @@
 // Rule 01. Declarations and Initialization (DCL)
+// non-compliant code:
 public class Cycle {
   private final int balance;
   private static final Cycle c = new Cycle();
