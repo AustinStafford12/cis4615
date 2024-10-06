@@ -1,4 +1,5 @@
 // Rule 06. Methods (MET)
+// non-compliant code:
 public static int getAbsAdd(int x, int y) {
   assert x != Integer.MIN_VALUE;
   assert y != Integer.MIN_VALUE;
