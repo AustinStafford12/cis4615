@@ -1,4 +1,5 @@
 // Rule 05. Object Orientation (OBJ)
+// non-compliant code:
 public class Widget {
   public int total; // Number of elements
  
