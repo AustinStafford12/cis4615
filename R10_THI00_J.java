@@ -1,4 +1,5 @@
 // Rule 10. Thread APIs (THI)
+// compliant solution
 public final class Foo implements Runnable {
   @Override public void run() {
     // ...
@@ -6,6 +7,6 @@ public final class Foo implements Runnable {
  
   public static void main(String[] args) {
     Foo foo = new Foo();
-    new Thread(foo).run();
+    new Thread(foo).start();
   }
 }
