@@ -1,6 +1,5 @@
 // Rule 11. Thread Pools (TPS)
 // compliant solution
-
 // class Helper remains unchanged
 class Helper {
   public void handle(Socket socket) {
