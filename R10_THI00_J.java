@@ -1,3 +1,4 @@
+// Thread APIs (THI)
 public final class Foo implements Runnable {
   @Override public void run() {
     // ...
